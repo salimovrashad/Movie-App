@@ -1,0 +1,82 @@
+.h100{
+    height: 100vh;
+}
+.h120{
+    height: 130vh;
+}
+.h75{
+    height: 75vh;
+}
+.fontp{
+    font-family: 'Permanent Marker' !important;
+}   
+.text{
+    height: 60%;
+}
+.tsize{
+    font-size: 100px;
+}
+.bg{
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item:hover{
+    transition: 2500ms;
+    transform: scale(1.1);
+}
+.cardimg:hover{
+    transition: 1500ms;
+    transform: scale(1.05);
+}
+.bg1{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/baby-driver.jpg);
+}
+.bg2{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/justice-league.jpg);
+}
+.bg3{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/atomic-blonde.jpg);
+}
+.bg4{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/blade-runner-2049.jpg);
+}
+.bg5{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/spiderman-640x360.jpg);
+}
+.bg6{
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/it.jpg);
+}
+.bg7{
+    /* background-attachment: fixed; */
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/inner-breaking-bad.jpg);
+}
+.bg8{
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.15) 50%, rgba(0,0,0,1) 100%),  url(https://newstar.bold-themes.com/movies/wp-content/uploads/sites/19/2018/01/westworld.jpg);
+}
+
+.navtext{
+    color: white !important;
+}
+.navtext:hover{
+    color: red !important;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none !important;
+}
+.carousel-indicators button{
+    background-color: white !important;
+    width: 240px !important;
+    height: 2px !important;
+    margin: 0 !important;
+}
+.carousel-indicators{
+    margin-bottom: 4rem !important;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
